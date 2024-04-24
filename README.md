@@ -1,9 +1,17 @@
 <p align="center"><b>📚 Advance Flutter Chapter 1 📚</b></p>
 
+#
+☞ __1.1 Switch Dark Theme to Light Theme__
+#
 <br></br>
 
-# 1.1 Switch Dark Theme to Light Theme
+<img src = "https://github.com/Zimil-Patel/AdvFlutterCh1/blob/main/snaps/1.1/img1.png" height = "610" width = "300"> &nbsp;&nbsp;&nbsp;&nbsp; <img src = "https://github.com/Zimil-Patel/AdvFlutterCh1/blob/main/snaps/1.1/img2.png" height = "610" width = "300">
+
 <br></br>
 
-<img src = "![img1](https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/8af69a49-2077-447d-b146-295bbf226ca3)" height = "600" width = "320">
+### Video Preview
+#
+https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/b5349c01-a671-479d-a64c-778a522e8088
+
+
 
