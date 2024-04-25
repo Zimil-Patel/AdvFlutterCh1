@@ -1,31 +1,65 @@
-import 'package:adv_flutter_ch1/switch%20theme/screens/home/view/home_screen.dart';
-import 'package:adv_flutter_ch1/switch%20theme/utils/constants.dart';
 import 'package:flutter/material.dart';
+import 'components/buttons.dart';
+import 'components/title_texts.dart';
 
-import '../../../utils/darkTheme.dart';
-import '../../../utils/lightTheme.dart';
+class ThemeApp extends StatelessWidget {
+  const ThemeApp({super.key, required this.refresh});
 
-class SwitchThemeApp extends StatefulWidget {
-  const SwitchThemeApp({super.key});
+  final VoidCallback refresh;
 
-  @override
-  State<SwitchThemeApp> createState() => _SwitchThemeAppState();
-}
-
-class _SwitchThemeAppState extends State<SwitchThemeApp> {
   @override
   Widget build(BuildContext context) {
-    void refresh(){
-      setState(() {
+    final height = MediaQuery
+        .of(context)
+        .size
+        .height;
+    final textScale = MediaQuery
+        .of(context)
+        .textScaleFactor;
+    return Scaffold(
+      body: Center(
+        child: Container(
+          margin: EdgeInsets.symmetric(horizontal: 20, vertical: height / 7),
+          decoration: BoxDecoration(
+            color: Theme
+                .of(context)
+                .colorScheme
+                .primary,
+            borderRadius: BorderRadius.circular(10),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.grey.withOpacity(0.4),
+                blurRadius: 2,
+                spreadRadius: 1,
+              ),
+            ],
+          ),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisSize: MainAxisSize.min,
+            children: [
 
-      });
-    }
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      theme: lightTheme,
-      darkTheme: darkTheme,
-      themeMode: isDark ? ThemeMode.dark : ThemeMode.light,
-      home: HomeScreen(refresh: refresh,),
+              const Spacer(
+                flex: 2,
+              ),
+              //Titles
+              TitleTexts(textScale: textScale),
+
+              const Spacer(
+                flex: 1,
+              ),
+
+              //Button - 1
+              Buttons(height: height, textScale: textScale, refresh: refresh,),
+
+              const Spacer(
+                flex: 2,
+              ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
+
