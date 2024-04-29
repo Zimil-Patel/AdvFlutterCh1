@@ -23,7 +23,7 @@ void main() {
           create: (context) => CounterProvider(),
         ),
       ],
-      child: const CounterApp(),
+      child: const ThemeSwitchUsingProvider(),
     ),
   );
 }

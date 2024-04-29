@@ -37,6 +37,7 @@ class LableRowWithSwitch extends StatelessWidget {
             },
             enabledText: '',
             disabledText: '',
+            disabledThumbColor: Colors.purple,
             enabledTrackColor: Theme.of(context).colorScheme.primary.withOpacity(0.5),
             enabledThumbColor: Theme.of(context).colorScheme.primary,
             type: GFToggleType.custom,
