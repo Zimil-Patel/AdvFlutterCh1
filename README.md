@@ -50,9 +50,8 @@ https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/b9ad5e03-d7ef-4662
 <br></br>
 
 #
-# ☞ __1.4.1 Provider & Change Theme using Provider__  <a href = "">_(Source code)_</a><br></br>
-
-<h1><p align="center">👉 Vertical Stepper 👈</p></h1>
+# ☞ __1.4.1 Provider & Change Theme using Provider__  <a href = "https://github.com/Zimil-Patel/AdvFlutterCh1/tree/main/lib/switch%20theme%20using%20provider">_(Source code)_</a><br></br>
+<br></br>
 
 <img src = "https://github.com/Zimil-Patel/AdvFlutterCh1/blob/main/snaps/1.4/theme/img1.png" height = "500" width = "240"> &nbsp;&nbsp;&nbsp;&nbsp; <img src = "https://github.com/Zimil-Patel/AdvFlutterCh1/blob/main/snaps/1.4/theme/img2.png" height = "500" width = "240"> &nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -60,14 +59,14 @@ https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/b9ad5e03-d7ef-4662
 
 ### Video Preview 🎥
 #
-https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/fed89257-bb47-42eb-ad45-3d8106e43294
+https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/46f37d50-7dce-4630-8c75-4d3f67ec155a
+
 
 <br></br>
 
 #
-# ☞ __1.4.2 Provider & Counter App__  <a href = "">_(Source code)_</a><br></br>
-
-<h1><p align="center">👉 Vertical Stepper 👈</p></h1>
+# ☞ __1.4.2 Provider & Counter App__  <a href = "https://github.com/Zimil-Patel/AdvFlutterCh1/tree/main/lib/counter%20app%20using%20provider">_(Source code)_</a><br></br>
+<br></br>
 
 <img src = "https://github.com/Zimil-Patel/AdvFlutterCh1/blob/main/snaps/1.4/counter/img1.png" height = "500" width = "240"> &nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -75,7 +74,8 @@ https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/fed89257-bb47-42eb
 
 ### Video Preview 🎥
 #
-https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/fed89257-bb47-42eb-ad45-3d8106e43294
+https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/040f52fb-c3cc-4b56-840c-cb6a4d59457a
+
 
 <br></br>
 
