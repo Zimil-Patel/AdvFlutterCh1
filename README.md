@@ -42,7 +42,7 @@ https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/b9ad5e03-d7ef-4662
 <br></br>
 
 #
-# ☞ __1.3 Provider Tree__  <a href = "https://github.com/Zimil-Patel/AdvFlutterCh1/tree/main/lib/switch%20theme">_(Source code)_</a><br></br>
+# ☞ __1.3 Provider Tree__ <br></br>
 <br></br>
 
 <img src = "https://github.com/Zimil-Patel/AdvFlutterCh1/blob/main/snaps/1.3/stateManagementFlow.drawio.png" height = "700" width = "650">
