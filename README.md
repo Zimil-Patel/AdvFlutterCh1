@@ -85,6 +85,9 @@ https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/4a2acfe6-2417-4fdf
 # ☞ __1.4.2 Provider & Counter App__  <a href = "https://github.com/Zimil-Patel/AdvFlutterCh1/tree/main/lib/counter%20app%20using%20provider">_(Source code)_</a><br></br>
 <br></br>
 
+### Screenshots 📷
+#
+
 <img src = "https://github.com/Zimil-Patel/AdvFlutterCh1/blob/main/snaps/1.4/counter/img1.png" height = "500" width = "240"> &nbsp;&nbsp;&nbsp;&nbsp;
 
 <br></br>
