@@ -11,6 +11,7 @@ import 'package:provider/provider.dart';
 //2. StepperApp()
 //3. ThemeSwitchUsingProvider()
 //4. CounterApp()
+//6. IntroUsingSharedPreferences()
 
 void main() {
   runApp(
