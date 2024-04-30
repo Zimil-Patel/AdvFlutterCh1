@@ -59,7 +59,8 @@ https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/b9ad5e03-d7ef-4662
 
 ### Video Preview 🎥
 #
-https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/46f37d50-7dce-4630-8c75-4d3f67ec155a
+https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/4a2acfe6-2417-4fdf-aef1-7bd8f6ec873e
+
 
 
 <br></br>
