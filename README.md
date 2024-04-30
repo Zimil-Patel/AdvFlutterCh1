@@ -100,10 +100,18 @@ https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/040f52fb-c3cc-4b56
 
 https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/1e066f8c-61c6-47bc-8faa-be2fe81c5f30
 
-
-
-
 <br></br>
+
+#
+# ☞ __1.5.2 Theme Status Saving Using Shared Preferences__  <a href = "https://github.com/Zimil-Patel/AdvFlutterCh1/tree/main/lib/intro%20using%20shared%20preferences">_(Source code)_</a><br></br>
+<br></br>
+
+### Video Preview 🎥
+#
+
+https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/3e5b619e-974c-4352-8470-124effbfb171
+
+
 
 
 
