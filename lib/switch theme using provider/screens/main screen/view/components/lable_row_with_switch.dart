@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:getwidget/components/toggle/gf_toggle.dart';
-import 'package:getwidget/types/gf_toggle_type.dart';
 import 'package:provider/provider.dart';
 
 import '../../provider/theme_provider.dart';
