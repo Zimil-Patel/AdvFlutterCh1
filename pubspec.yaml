@@ -16,6 +16,8 @@ dependencies:
   cupertino_icons: ^1.0.6
   getwidget: any
   provider: any
+  google_fonts: any
+  shared_preferences: any
 
 dev_dependencies:
   flutter_test:
@@ -28,4 +30,4 @@ flutter:
 
   assets:
     - assets/
-
+    - assets/intro/
