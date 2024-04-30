@@ -10,21 +10,26 @@ class IntroUsingSharedPreferences extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     return MaterialApp(
       theme: ThemeData(
+        scaffoldBackgroundColor: Colors.white,
         textTheme: TextTheme(
           titleLarge: GoogleFonts.poppins(
-            textStyle: const TextStyle(fontWeight: FontWeight.w600, fontSize: 26),
+            textStyle:
+                const TextStyle(fontWeight: FontWeight.w600, fontSize: 26),
           ),
           bodyMedium: GoogleFonts.poppins(
-            textStyle: const TextStyle(fontWeight: FontWeight.w600, fontSize: 20),
+            textStyle:
+                const TextStyle(fontWeight: FontWeight.w600, fontSize: 20),
           ),
         ),
       ),
       debugShowCheckedModeBanner: false,
       title: 'Shared Preference',
-      home: Provider.of<IntroScreenProvider>(context, listen: true).isIntroDisplayed ? const FoodExpressHomeScreen() : const IntroScreen(),
+      home: Provider.of<IntroScreenProvider>(context, listen: true)
+              .isIntroDisplayed
+          ? const FoodExpressHomeScreen()
+          : const IntroScreen(),
     );
   }
 }

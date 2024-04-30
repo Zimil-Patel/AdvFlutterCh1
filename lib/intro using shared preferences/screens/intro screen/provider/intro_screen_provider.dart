@@ -1,18 +1,18 @@
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class IntroScreenProvider extends ChangeNotifier{
+class IntroScreenProvider extends ChangeNotifier {
   int _introStackIndex = 0;
-  bool isIntroDisplayed  = false;
+  bool isIntroDisplayed = false;
 
   int getIndex() => _introStackIndex;
 
-  void incrementIndex(){
+  void incrementIndex() {
     _introStackIndex++;
     notifyListeners();
   }
 
-  void setIntroStackIndex(int value){
+  void setIntroStackIndex(int value) {
     _introStackIndex = value;
     notifyListeners();
   }
@@ -24,13 +24,13 @@ class IntroScreenProvider extends ChangeNotifier{
   }
 
   //GET METHOD
-  Future<void> getPreferenceValue() async{
+  Future<void> getPreferenceValue() async {
     SharedPreferences preferences = await SharedPreferences.getInstance();
     isIntroDisplayed = preferences.getBool('isIntroDisplayed') ?? false;
     notifyListeners();
   }
 
-  IntroScreenProvider(){
+  IntroScreenProvider() {
     getPreferenceValue();
   }
 }
