@@ -18,7 +18,7 @@ https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/b5349c01-a671-479d
 #
 # ☞ __1.2 Create Registration Page using Stepper Widget__  <a href = "https://github.com/Zimil-Patel/AdvFlutterCh1/tree/main/lib/stepper%20widget">_(Source code)_</a><br></br>
 
-<h1><p align="center">👉 Vertical Stepper 👈</p></h1>
+<h1><p align="center">Vertical Stepper</p></h1>
 
 ### Screenshots 📷
 #
@@ -34,7 +34,7 @@ https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/fed89257-bb47-42eb
 
 <br></br>
 
-<h1><p align="center">👉 Horizontal Stepper 👈</p></h1>
+<h1><p align="center">Horizontal Stepper</p></h1>
 
 ### Screenshots 📷
 #
