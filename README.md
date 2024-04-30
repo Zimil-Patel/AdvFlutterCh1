@@ -118,7 +118,7 @@ https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/1e066f8c-61c6-47bc
 <br></br>
 
 #
-# ☞ __1.5.2 Theme Status Saving Using Shared Preferences__  <a href = "https://github.com/Zimil-Patel/AdvFlutterCh1/tree/main/lib/intro%20using%20shared%20preferences">_(Source code)_</a><br></br>
+# ☞ __1.5.2 Theme Status Saving Using Shared Preferences__  <a href = "https://github.com/Zimil-Patel/AdvFlutterCh1/tree/main/lib/switch%20theme%20using%20provider">_(Source code)_</a><br></br>
 <br></br>
 
 ### Video Preview 🎥
