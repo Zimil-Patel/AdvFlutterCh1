@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -17,38 +18,38 @@ class IndexIndicator extends StatelessWidget {
       children: [
         ...List.generate(
           introList.length,
-          (index) => Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: index ==
-                    Provider.of<IntroScreenProvider>(context, listen: true)
-                        .getIndex()
-                ? TweenAnimationBuilder(
-                    duration: const Duration(milliseconds: 200),
-                    tween: Tween<double>(begin: 8, end: 26),
-                    builder:
-                        (BuildContext context, double value, Widget? child) =>
-                            Container(
-                      height: 6,
-                      width: value,
-                      decoration: BoxDecoration(
-                        color: primaryColor,
-                        borderRadius: BorderRadius.circular(2),
-                      ),
+          (index) => index ==
+                  Provider.of<IntroScreenProvider>(context, listen: true)
+                      .getIndex()
+              ? TweenAnimationBuilder(
+                  duration: const Duration(milliseconds: 200),
+                  tween: Tween<double>(begin: 8, end: 40),
+                  builder:
+                      (BuildContext context, double value, Widget? child) =>
+                          Container(
+                    height: 8,
+                    width: value,
+                    margin: const EdgeInsets.symmetric(horizontal: 10),
+                    decoration: BoxDecoration(
+                      color: primaryColor,
+                      borderRadius: BorderRadius.circular(2),
                     ),
-                  )
-                : GestureDetector(
-                  onTap: () {
-                    Provider.of<IntroScreenProvider>(context, listen: false).setIntroStackIndex(index);
+                  ),
+                )
+              : CupertinoButton(
+                  padding: EdgeInsets.zero,
+                  onPressed: () {
+                    Provider.of<IntroScreenProvider>(context, listen: false)
+                        .setIntroStackIndex(index);
                   },
                   child: Container(
-                    height: 6,
-                    width: 6,
+                    height: 8,
+                    width: 8,
                     decoration: BoxDecoration(
                         shape: BoxShape.circle,
                         border: Border.all(color: Colors.grey, width: 1.2)),
                   ),
                 ),
-          ),
         ),
       ],
     );
