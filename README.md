@@ -80,6 +80,23 @@ https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/040f52fb-c3cc-4b56
 
 <br></br>
 
+#
+# ☞ __1.5 One Time Intro Screen in Flutter __  <a href = "https://github.com/Zimil-Patel/AdvFlutterCh1/tree/main/lib/intro%20using%20shared%20preferences">_(Source code)_</a><br></br>
+<br></br>
+
+<img src = "https://github.com/Zimil-Patel/AdvFlutterCh1/blob/main/snaps/1.5/img1.png" height = "500" width = "240"> &nbsp;&nbsp;&nbsp;&nbsp; <img src = "https://github.com/Zimil-Patel/AdvFlutterCh1/blob/main/snaps/1.5/img2.png" height = "500" width = "240"> &nbsp;&nbsp;&nbsp;&nbsp; <img src = "https://github.com/Zimil-Patel/AdvFlutterCh1/blob/main/snaps/1.5/img3.png" height = "500" width = "240">
+
+<img src = "https://github.com/Zimil-Patel/AdvFlutterCh1/blob/main/snaps/1.5/img4.png" height = "500" width = "240">
+
+<br></br>
+
+### Video Preview 🎥
+#
+https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/040f52fb-c3cc-4b56-840c-cb6a4d59457a
+
+
+<br></br>
+
 
 
 
