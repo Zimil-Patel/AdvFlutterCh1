@@ -18,6 +18,9 @@ dependencies:
   provider: any
   google_fonts: any
   shared_preferences: any
+  flutter_svg: any
+  share_plus: any
+  url_launcher: any
 
 dev_dependencies:
   flutter_test:
@@ -40,4 +43,5 @@ flutter:
   assets:
     - assets/
     - assets/intro/
+    - assets/svg/
 

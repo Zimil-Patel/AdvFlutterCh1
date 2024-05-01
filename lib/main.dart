@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'app list/my_app.dart';
+import 'contact us app/contact_us_app.dart';
 
 // Applications List
 //1. DefaultThemeApp()
@@ -12,6 +13,7 @@ import 'app list/my_app.dart';
 //3. ThemeSwitchUsingProvider() //with shared preferences
 //4. CounterApp()
 //6. IntroUsingSharedPreferences()
+//7. ContactUsApp()
 
 void main() {
   runApp(

@@ -26,13 +26,14 @@ class ListScrollView extends StatelessWidget {
           },
           child: Container(
             margin: const EdgeInsets.all(8),
+            padding: const EdgeInsets.symmetric(horizontal: 20),
             height: 140,
             alignment: Alignment.center,
             decoration: BoxDecoration(
               color: Colors.black38,
               borderRadius: BorderRadius.circular(10),
             ),
-            child: Text(appList[index].title),
+            child: Text(appList[index].title,textAlign: TextAlign.center,),
           ),
         )),
       ),
