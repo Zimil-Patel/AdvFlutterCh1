@@ -31,7 +31,7 @@ class CounterAppHomePage extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         backgroundColor: Theme.of(context).colorScheme.secondary,
         onPressed: (){
-         Provider.of<CounterProvider>(context, listen: false).increaseCount();
+         Provider.of<CounterProvider>(context, listen: false).increaseCountPreference();
         },
         shape: const CircleBorder(),
         child: Icon(Icons.add, color: Theme.of(context).scaffoldBackgroundColor,),

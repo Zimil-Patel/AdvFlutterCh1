@@ -3,14 +3,14 @@ import 'package:adv_flutter_ch1/switch%20theme/utils/constants.dart';
 import 'package:adv_flutter_ch1/switch%20theme/utils/theme_data.dart';
 import 'package:flutter/material.dart';
 
-class GlobalApp extends StatefulWidget {
-  const GlobalApp({super.key});
+class DefaultThemeApp extends StatefulWidget {
+  const DefaultThemeApp({super.key});
 
   @override
-  State<GlobalApp> createState() => _GlobalAppState();
+  State<DefaultThemeApp> createState() => _DefaultThemeAppState();
 }
 
-class _GlobalAppState extends State<GlobalApp> {
+class _DefaultThemeAppState extends State<DefaultThemeApp> {
   @override
   Widget build(BuildContext context) {
     void refresh(){

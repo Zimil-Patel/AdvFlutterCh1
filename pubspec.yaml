@@ -18,22 +18,21 @@ dependencies:
   provider: any
   google_fonts: any
   shared_preferences: any
-  flutter_launcher_icons: any
-
-
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  flutter_launcher_icons: any
   flutter_lints: ^3.0.0
 
 flutter_launcher_icons:
   android: true
   ios: true
-  img_path: "assets/profile.png"
+  image_path_android: "assets/foreground.png"
+  image_path_ios: "assets/foreground.png"
   adaptive_icon_background: '#ffffff'
-  adaptive_icon_foreground: "assets/profile.png"
+  adaptive_icon_foreground: "assets/foreground.png"
+  remove_alpha_ios: true
 
 flutter:
   uses-material-design: true
@@ -41,3 +40,4 @@ flutter:
   assets:
     - assets/
     - assets/intro/
+
