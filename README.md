@@ -143,6 +143,23 @@ https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/dcbd688a-4681-460a
 
 <br></br>
 
+#
+# ☞ __1.7 Photo Gallery With Biometric Authentication__  <a href = "https://github.com/Zimil-Patel/AdvFlutterCh1/tree/main/lib/gallery%20with%20authentication">_(Source code)_</a><br></br>
+<br></br>
+
+<img src = "https://github.com/Zimil-Patel/AdvFlutterCh1/blob/main/snaps/1.7/img1.png" height = "500" width = "240"> &nbsp;&nbsp;&nbsp;&nbsp; <img src = "https://github.com/Zimil-Patel/AdvFlutterCh1/blob/main/snaps/1.7/img2.png" height = "500" width = "240"> &nbsp;&nbsp;&nbsp;&nbsp; <img src = "https://github.com/Zimil-Patel/AdvFlutterCh1/blob/main/snaps/1.7/img3.png" height = "500" width = "240">
+
+<img src = "https://github.com/Zimil-Patel/AdvFlutterCh1/blob/main/snaps/1.7/img4.png" height = "500" width = "240">
+
+<br></br>
+
+### Video Preview 🎥
+#
+
+https://github.com/Zimil-Patel/AdvFlutterCh1/assets/112332000/1e066f8c-61c6-47bc-8faa-be2fe81c5f30
+
+<br></br>
+
 
 
 
