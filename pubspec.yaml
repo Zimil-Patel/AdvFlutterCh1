@@ -21,6 +21,8 @@ dependencies:
   flutter_svg: any
   share_plus: any
   url_launcher: any
+  local_auth: ^2.2.0
+
 
 dev_dependencies:
   flutter_test:
@@ -44,4 +46,7 @@ flutter:
     - assets/
     - assets/intro/
     - assets/svg/
+    - assets/gallery/
+    - assets/hidden1/
+    - assets/hidden2/
 

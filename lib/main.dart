@@ -1,4 +1,6 @@
 import 'package:adv_flutter_ch1/counter%20app%20using%20provider/screens/provider/counter_provider.dart';
+import 'package:adv_flutter_ch1/gallery%20with%20authentication/gallery_with_authentication.dart';
+import 'package:adv_flutter_ch1/gallery%20with%20authentication/screens/home%20screen/provider/gallery_provider.dart';
 import 'package:adv_flutter_ch1/intro%20using%20shared%20preferences/screens/intro%20screen/provider/intro_screen_provider.dart';
 import 'package:adv_flutter_ch1/switch%20theme%20using%20provider/screens/main%20screen/provider/theme_provider.dart';
 import 'package:flutter/material.dart';
@@ -28,11 +30,12 @@ void main() {
         ChangeNotifierProvider(
           create: (context) => IntroScreenProvider(),
         ),
+        ChangeNotifierProvider(
+          create: (context) => GalleryProvider(),
+        ),
       ],
       //ENTER APP NAME HERE FROM ABOVE GIVEN LIST TO RUN APP
       child: const MyApp(),
     ),
   );
 }
-
-
