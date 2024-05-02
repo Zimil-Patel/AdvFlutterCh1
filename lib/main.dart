@@ -16,6 +16,7 @@ import 'contact us app/contact_us_app.dart';
 //4. CounterApp()
 //6. IntroUsingSharedPreferences()
 //7. ContactUsApp()
+//8. GalleryWithAuthentication()
 
 void main() {
   runApp(
