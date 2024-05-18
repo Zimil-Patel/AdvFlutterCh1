@@ -1,19 +1,27 @@
-import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class IntroScreenProvider extends ChangeNotifier {
   int _introStackIndex = 0;
   bool isIntroDisplayed = false;
+  final PageController pageController = PageController();
 
   int getIndex() => _introStackIndex;
 
   void incrementIndex() {
     _introStackIndex++;
+    pageController.jumpToPage(_introStackIndex);
     notifyListeners();
   }
 
   void setIntroStackIndex(int value) {
     _introStackIndex = value;
+    notifyListeners();
+  }
+
+  void skipIntro(int index) {
+    _introStackIndex = index;
+    pageController.jumpToPage(_introStackIndex);
     notifyListeners();
   }
 

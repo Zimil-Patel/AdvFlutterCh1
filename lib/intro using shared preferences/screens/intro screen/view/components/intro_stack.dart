@@ -1,6 +1,4 @@
-import 'package:adv_flutter_ch1/intro%20using%20shared%20preferences/screens/intro%20screen/provider/intro_screen_provider.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 
 import '../../../../utils/constants.dart';
 import '../../../../utils/intro_list.dart';
@@ -9,11 +7,13 @@ import 'index_indicator.dart';
 class IntroStack extends StatelessWidget {
   const IntroStack({
     super.key,
+    required this.index,
   });
+
+  final int index;
 
   @override
   Widget build(BuildContext context) {
-    int index = Provider.of<IntroScreenProvider>(context, listen: true).getIndex();
     return Column(
       children: [
         const SizedBox(
@@ -70,9 +70,10 @@ class IntroStack extends StatelessWidget {
           height: 20,
         ),
 
-        const IndexIndicator(),
+        IndexIndicator(
+          i: index,
+        ),
       ],
     );
   }
 }
-

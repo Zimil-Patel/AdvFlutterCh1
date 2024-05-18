@@ -10,12 +10,13 @@ import '../../provider/intro_screen_provider.dart';
 class BottomButtonRow extends StatelessWidget {
   const BottomButtonRow({
     super.key,
+    required this.index,
   });
+
+  final int index;
 
   @override
   Widget build(BuildContext context) {
-    int index =
-        Provider.of<IntroScreenProvider>(context, listen: true).getIndex();
     return Padding(
       padding: const EdgeInsets.only(bottom: 30.0),
       child: Align(
@@ -83,7 +84,7 @@ class SkipAndNextButton extends StatelessWidget {
           padding: EdgeInsets.zero,
           onPressed: () {
             Provider.of<IntroScreenProvider>(context, listen: false)
-                .setIntroStackIndex(introList.length - 1);
+                .skipIntro(introList.length - 1);
           },
           child: Container(
             padding:

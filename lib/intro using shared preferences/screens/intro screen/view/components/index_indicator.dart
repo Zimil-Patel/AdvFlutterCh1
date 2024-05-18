@@ -9,8 +9,9 @@ import '../../provider/intro_screen_provider.dart';
 class IndexIndicator extends StatelessWidget {
   const IndexIndicator({
     super.key,
+    required this.i,
   });
-
+  final int i;
   @override
   Widget build(BuildContext context) {
     return Row(
@@ -18,9 +19,7 @@ class IndexIndicator extends StatelessWidget {
       children: [
         ...List.generate(
           introList.length,
-          (index) => index ==
-                  Provider.of<IntroScreenProvider>(context, listen: true)
-                      .getIndex()
+          (index) => index == i
               ? TweenAnimationBuilder(
                   duration: const Duration(milliseconds: 200),
                   tween: Tween<double>(begin: 8, end: 40),
